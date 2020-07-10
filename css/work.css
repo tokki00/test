@@ -1,0 +1,49 @@
+
+section {
+  width: 1010px;
+  margin: auto;
+  color: #ffffff;
+}
+
+/* -------- new --------- */
+
+section#new {
+  height: 1020px;
+  border-top: solid 2px #FF8DA7;
+  background-color: #131313;
+}
+
+section#new h3 {
+  font-size: 50px;
+  margin: 150px 0 0 35px;
+}
+
+section#new h3 span {
+  color: #ff5494;
+}
+
+section#new .item {
+  float: left;
+  text-align: center;
+  margin: 80px 0 0 32px;
+}
+
+section#new .item .subject {
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+section#new .item .comment {
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+section#new .item .price {
+  font-size: 10px;
+  margin-top: 5px;
+}
+#rr{
+  margin-top: 100px;
+}

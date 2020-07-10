@@ -1,0 +1,131 @@
+/* ------ 21561033 김종원 ------- */
+#slide{
+  height:940px;
+  position:relative;
+  overflow:hidden;
+}
+#slide ul{
+  width:1000%;
+  height:100%;
+  transition:1s;
+}
+#slide ul:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+#slide li{
+  float:left;
+  width:10%;
+  height:100%;
+}
+#slide li:nth-child(1){
+  background:#faa;
+}
+#slide li:nth-child(2){
+  background:#ffa;
+}
+#slide li:nth-child(3){
+  background:#faF;
+}
+#slide li:nth-child(4){
+  background:#aaf;
+}
+#slide li:nth-child(5){
+  background:#adf;
+}
+#slide li:nth-child(6){
+  background:#bbb;
+}
+#slide li:nth-child(7){
+  background:#fff;
+}
+#slide li:nth-child(8){
+  background:#ddd;
+}
+#slide li:nth-child(9){
+  background:#adf;
+}
+#slide li:nth-child(10){
+  background:#aaa;
+}
+#slide input{
+  display:none;
+}
+#slide label{
+  display:inline-block;vertical-align:middle;
+  width:10px;
+  height:10px;
+  border:2px solid #666;background:#fff;
+  transition:0.3s;
+  border-radius:50%;
+  cursor:pointer;
+}
+#slide .pos{
+  text-align:center;
+  position:absolute;
+  bottom:50px;
+  left:0;
+  width:100%;
+  text-align:center;
+}
+#pos1:checked~ul{
+  margin-left:0%;
+}
+#pos2:checked~ul{
+  margin-left:-100%;
+}
+#pos3:checked~ul{
+  margin-left:-200%;
+}
+#pos4:checked~ul{
+  margin-left:-300%;
+}
+#pos5:checked~ul{
+  margin-left:-400%;
+}
+#pos6:checked~ul{
+  margin-left:-500%;
+}
+#pos7:checked~ul{
+  margin-left:-600%;
+}
+#pos8:checked~ul{
+  margin-left:-700%;
+}
+#pos9:checked~ul{
+  margin-left:-800%;
+}
+#pos10:checked~ul{
+  margin-left:-900%;
+}
+#pos1:checked~.pos>label:nth-child(1){
+  background:#666;
+}
+#pos2:checked~.pos>label:nth-child(2){
+  background:#666;
+}
+#pos3:checked~.pos>label:nth-child(3){
+  background:#666;
+}
+#pos4:checked~.pos>label:nth-child(4){
+  background:#666;
+}
+#pos5:checked~.pos>label:nth-child(5){
+  background:#666;
+}
+#pos6:checked~.pos>label:nth-child(6){
+  background:#666;
+}
+#pos7:checked~.pos>label:nth-child(7){
+  background:#666;
+}
+#pos8:checked~.pos>label:nth-child(8){
+  background:#666;
+}
+#pos9:checked~.pos>label:nth-child(9){
+  background:#666;
+}
+#pos10:checked~.pos>label:nth-child(10){
+  background:#666;
+}
